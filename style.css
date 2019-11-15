@@ -1,0 +1,159 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.canvas
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #D1D2F9;
+}
+.items
+{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+}
+.cart
+{
+    width: 30vw;
+    height: 100vh;
+}
+.item
+{
+    width: 300px;
+    height: 600px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #6C91BF;
+}
+#img1
+{
+    width: 300px;
+    height: 300px;
+    background-image: url(wf1.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #7796CB;
+}
+#img2
+{
+    width: 300px;
+    height: 300px;
+    background-image: url(wf3.jpg);
+    background-size: cover;
+    box-shadow: 10px 10px 10px #7796CB ;
+}
+#item1
+{
+    position: relative;
+    top: 60px;
+    left: 100px;
+}
+#item2
+{
+    position: relative;
+    top: 60px;
+    right: -350px;
+}
+.btn
+{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 20px;
+    border: 2px solid  #576490;
+    padding: 10px;
+    width: 80%;
+    margin-left:10% ;
+    margin-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#add1 ,#remove1
+{
+    margin-top:30px ;
+}
+#add1 , #add2
+{
+    background-color: #576490 ;
+    color: #D1D2F9;
+    box-shadow: 10px 10px 10px #7796CB;
+}
+#remove1 , #remove2
+{
+    display: none;
+    color: #576490;
+    box-shadow: 10px 10px 10px #7796CB;
+} 
+.cart{
+    background-color: #576490;
+}
+.cart > h1{
+    text-align: center;
+    color: #576490;
+    margin: 0%;
+    padding: 20px;
+    background-color: #A3BCF9;
+}
+#payment
+{
+    position: relative;
+    width: 50%;
+    bottom: -10vh;
+    border-radius: 50px;
+    margin-right: 25%;
+    margin-left: 23%;
+}
+.cartitem
+{
+    width: 100%;
+    height: 200px;
+    display: none;
+
+}
+#cartimg1
+{
+    background-image: url(wf1.jpg);
+    width: 50%;
+    height: 180px;
+    background-size: cover;
+    margin:10px 10px 5px;
+    border: 2px solid white;
+
+
+}
+#cartimg2
+{
+    background-image: url(wf3.jpg);
+    width: 50%;
+    height: 180px;
+    background-size: cover;
+    border: 2px solid white;
+    margin: 5px 10px 5px;
+}
+.cartitemcost
+{
+    width: 50%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.total
+{
+    margin: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#item1:hover #img1
+{
+    box-shadow: 10px 10px 20px #7796CB;
+}
+#item2:hover #img2
+{
+    box-shadow: 10px 10px 20px #7796CB;
+}

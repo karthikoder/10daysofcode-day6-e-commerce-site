@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="canvas">
+        <div class="items">
+            <div class="item" id="item1">
+
+                <div id="img1"></div>
+                <h2>NIKE T-Shirt Model AMX342D</h2>
+                <P><B>brand:</B>NIKE</P>
+                <h2>RS.1999/-</h2>
+                <h3><del>RS.2999/-</del></h3>
+                <button class="btn" onclick="fun1()" id="add1">ADD TO CART</button>
+                <button class="btn" onclick="fun3()"  id="remove1">REMOVE FROM CART</button>
+            </div>
+            <div class="item" id="item2">
+                <div id="img2"></div>
+                <h2>WRANGLER Formal Shirt Model SDE34WD</h2>
+                <P><B>brand:</B>NIKE</P>
+                <h2>RS.3499/-</h2>
+                <h3><del>RS.3999/- </del></h3>
+                <button class="btn" onclick="fun2()"  id="add2">ADD TO CART</button>
+                <button class="btn" onclick="fun4()"  id="remove2"> REMOVE FROM CART</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h1><i class="fa fa-cart-plus" style="font-size:48px;color:#576490;"></i>  CART</h1>
+            <div class="cartitem" id="cartitem1">
+                <div id="cartimg1"></div>
+                <div class="cartitemcost">
+                   <h1>1999/-</h1>
+                    <h3>save RS.1000/-</h3>
+                    <button class="btn" onclick="fun3()"  style="border: 2px solid #A3BCF9;">remove</button>
+                </div> 
+            </div>
+            <div class="cartitem" id="cartitem2">
+                    <div id="cartimg2"></div>
+                    <div class="cartitemcost">
+                            <h1>3499/-</h1>
+                            <h3>save RS.500/-</h3>
+                            <button class="btn" onclick="fun4()"  style="border: 2px solid #A3BCF9;">remove</button>
+                    </div>
+                </div>
+            <h1 id="payment"><a href="payment.html"> <i class="fa fa-money" style="font-size:48px;color:#576490;"></i></a></h1>
+        </div>
+    </div>
+</body>
+</html>
